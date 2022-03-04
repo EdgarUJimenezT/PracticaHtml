@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Realiza tu pedido</h1>
+
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="dirección">Dirección:</label>
+        <input type="text" name="dirección" id="dirección"><br>
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" maxlength="10"><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo"><br>
+        <label for="descripción">Descripción de tu pastel:</label>
+        <input type="text" id="descripción" name="descripción"><br>
+    
+    <h2>¿De qué quieres tu pastel?</h2>
+    <h3>Si deseas combinar tu pastel se te cobrará $30 extra (puedes combinar hasta tres, pero te recomendamos que elijas máximo dos)</h3>
+    <input type="checkbox" id="topping1" name="topping1" value="Cereza">
+    <label for="topping1">Pastel de Cereza</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="TresLeches">
+    <label for="topping2">Pastel de Tres Leches</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Fresa">
+    <label for="topping3">Pastel de Fresa</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Chocolate">
+    <label for="topping3">Pastel de Chocolate</label><br>
+    <input type="checkbox" id="topping5" name="topping5" value="Vainilla">
+    <label for="topping3">Pastel de Vainilla</label><br>
+
+    <h2>¿Con qué decoraciones quieres tu pastel?</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="Fruta">
+    <label for="topping1">Fruta de elección</label>
+    <label for="Nombre"></label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Fresa, Mango..."><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Crema">
+    <label for="topping2">Crema de chocolate</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Glaseado">
+    <label for="topping3">Glaseado</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Salsa">
+    <label for="topping3">Salsa de caramelo</label><br>
+
+    <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+</body>
+</html>
